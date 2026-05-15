@@ -31,9 +31,9 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 TEAM_CHAT_ID = os.getenv("TEAM_CHAT_ID")  # ID командного чата (например, -1001234567890)
 
 if not BOT_TOKEN:
-    raise RuntimeError("Не задана переменная BOT_TOKEN. Получите её у @BotFather.")
+    raise RuntimeError("8967974561:AAFNuz8BJfdAvUuB5y2LhaTqDURUFyGa22E")
 if not TEAM_CHAT_ID:
-    raise RuntimeError("Не задана переменная TEAM_CHAT_ID. См. README.md, шаг 3.")
+    raise RuntimeError(-1003503064558)
 
 TEAM_CHAT_ID = int(TEAM_CHAT_ID)
 
